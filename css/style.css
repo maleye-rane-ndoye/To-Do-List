@@ -19,17 +19,23 @@ body{
 .logo-todolist{ 
     box-sizing: border-box;
     padding: 5px;
-    width: 15%;
+    width: 25%;
     align-items: center;
+    display: flex;
 }
 .logo-todolist img{
-    width: 100px;
+    width: 80px;
     text-align: center;
-    margin-top: 10px;
-    margin-left: 6rem;
+    margin: 20px 20px;
+}
+.logo-todolist p{
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: x-large;
+    color: #023047;
 }
 .flex{
-    flex: 1;
+    flex: 2;
 }
 .profil{
     width: 25rem;
@@ -124,10 +130,6 @@ article hr{
     margin: 0 20px;
 }
 
-
-.container{
-
-}
 table{
         width: 100%;
         display: table;
@@ -148,8 +150,20 @@ table{
     }
 
 
-.container table td{
+ table td{
     text-align: center;
     font-family:Helvetica;
 }
 
+.box-post-todo{
+    margin: 20px 20px;
+    width: 590px;
+    height: 460px;
+    background-color: aqua;
+}
+.box-post-todo h1{
+    font-family: helvetica;
+    font-size: larger;
+    font-weight: bold;
+    color: #FF2063;
+}

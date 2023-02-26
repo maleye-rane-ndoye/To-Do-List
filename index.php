@@ -11,7 +11,8 @@
 <body>
     <nav class="nav">
         <div class="logo-todolist">
-            <img src="images/logotodo.png" alt="">
+            <img src="images/TODO.png" alt="">
+            <p>TO-DO-LIST</p>
         </div>
         <div class="flex"></div>
         <div class="profil">
@@ -19,6 +20,7 @@
             <div class="username"> Bonjour, Maleye Rane Ndoye</div>
         </div>
     </nav>
+    <div class="flex"></div>
     <section class="pre-todo">
         <div class="content">
             <article class="box-pre-todo">
@@ -138,14 +140,38 @@
         <div class="content">
             <article class="box-pre-todo">
                 <h1>Compétences</h1>
-                <canvas width="800" height="800" style="display: block; box-sizing: border-box; height: 800px; width: 800px;"></canvas>
+                <canvas width="80" height="80" style="display: block; box-sizing: border-box; height: 80px; width: 80px;"></canvas>
 
             </article>
         </div>
     </section>
     <section class="post-todo">
-        <div>vid</div>
-        <div>vid</div>
+        <div>
+            <article class="box-post-todo">
+                <h1> Créer Un Projet</h1>
+                
+            </article>
+        </div>
+        <div>
+        <article class="box-post-todo">
+                <h1>Projets finis</h1>
+                <table>
+                        <thead>
+                            <tr class="box-container">
+                                <th>Name</th>
+                                <th>Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="box-container">
+                                <td>livre d'or</td>
+                                <td>25\02\2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+            </article>
+        </div>
     </section>
 </body>
 </html>
